@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+#import "Masonry.h"
 #import "TFNumber.h"
 #import "Flight.h"
 
@@ -27,8 +28,11 @@
 
 
     [self.view addSubview:self.excelView];
-    self.excelView.frame = CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height-20);
-//    self.excelView 
+//    self.excelView.frame = CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height-20);
+
+    [self.excelView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.bottom.left.right.equalTo(self.view).mas_offset(UIEdgeInsetsMake(50, 0, 0, 0));
+    }];
 
     self.title = @"航班信息";
 
