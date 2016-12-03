@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		893A8C251D82A01B0091BCCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C241D82A01B0091BCCC /* main.m */; };
+		893A8C281D82A01B0091BCCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C271D82A01B0091BCCC /* AppDelegate.m */; };
+		893A8C2B1D82A01B0091BCCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C2A1D82A01B0091BCCC /* ViewController.m */; };
+		893A8C2E1D82A01B0091BCCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893A8C2C1D82A01B0091BCCC /* Main.storyboard */; };
+		893A8C301D82A01B0091BCCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 893A8C2F1D82A01B0091BCCC /* Assets.xcassets */; };
+		893A8C331D82A01B0091BCCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 893A8C311D82A01B0091BCCC /* LaunchScreen.storyboard */; };
+		893A8C3E1D82A01B0091BCCC /* TFExcelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C3D1D82A01B0091BCCC /* TFExcelTests.m */; };
+		893A8C491D82A01B0091BCCC /* TFExcelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C481D82A01B0091BCCC /* TFExcelUITests.m */; };
+		893A8C631D82A0F30091BCCC /* BSNumbersCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C581D82A0F30091BCCC /* BSNumbersCollectionCell.m */; };
+		893A8C641D82A0F30091BCCC /* BSNumbersCollectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C5A1D82A0F30091BCCC /* BSNumbersCollectionHeaderView.m */; };
+		893A8C651D82A0F30091BCCC /* BSNumbersDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C5C1D82A0F30091BCCC /* BSNumbersDataManager.m */; };
+		893A8C661D82A0F30091BCCC /* BSNumbersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C5E1D82A0F30091BCCC /* BSNumbersView.m */; };
+		893A8C671D82A0F30091BCCC /* NSObject+BSNumbersExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C601D82A0F30091BCCC /* NSObject+BSNumbersExtension.m */; };
+		893A8C681D82A0F30091BCCC /* NSString+BSNumbersExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C621D82A0F30091BCCC /* NSString+BSNumbersExtension.m */; };
+		893A8C6A1D82A1410091BCCC /* flightsInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 893A8C691D82A1410091BCCC /* flightsInfo.plist */; };
+		893A8C6F1D82A2AF0091BCCC /* Flight.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C6E1D82A2AF0091BCCC /* Flight.m */; };
+		893A8C8C1D82A5C40091BCCC /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C731D82A5C40091BCCC /* MASCompositeConstraint.m */; };
+		893A8C8D1D82A5C40091BCCC /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C761D82A5C40091BCCC /* MASConstraint.m */; };
+		893A8C8E1D82A5C40091BCCC /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C781D82A5C40091BCCC /* MASConstraintMaker.m */; };
+		893A8C8F1D82A5C40091BCCC /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C7A1D82A5C40091BCCC /* MASLayoutConstraint.m */; };
+		893A8C901D82A5C40091BCCC /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C7E1D82A5C40091BCCC /* MASViewAttribute.m */; };
+		893A8C911D82A5C40091BCCC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C801D82A5C40091BCCC /* MASViewConstraint.m */; };
+		893A8C921D82A5C40091BCCC /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C821D82A5C40091BCCC /* NSArray+MASAdditions.m */; };
+		893A8C931D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C851D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		893A8C941D82A5C40091BCCC /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C871D82A5C40091BCCC /* View+MASAdditions.m */; };
+		893A8C951D82A5C40091BCCC /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 893A8C8A1D82A5C40091BCCC /* ViewController+MASAdditions.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		893A8C3A1D82A01B0091BCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893A8C181D82A01B0091BCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893A8C1F1D82A01B0091BCCC;
+			remoteInfo = TFExcel;
+		};
+		893A8C451D82A01B0091BCCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 893A8C181D82A01B0091BCCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 893A8C1F1D82A01B0091BCCC;
+			remoteInfo = TFExcel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		893A8C201D82A01B0091BCCC /* TFExcel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TFExcel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A8C241D82A01B0091BCCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		893A8C261D82A01B0091BCCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		893A8C271D82A01B0091BCCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		893A8C291D82A01B0091BCCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		893A8C2A1D82A01B0091BCCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		893A8C2D1D82A01B0091BCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		893A8C2F1D82A01B0091BCCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		893A8C321D82A01B0091BCCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		893A8C341D82A01B0091BCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893A8C391D82A01B0091BCCC /* TFExcelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFExcelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A8C3D1D82A01B0091BCCC /* TFExcelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFExcelTests.m; sourceTree = "<group>"; };
+		893A8C3F1D82A01B0091BCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893A8C441D82A01B0091BCCC /* TFExcelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TFExcelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		893A8C481D82A01B0091BCCC /* TFExcelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFExcelUITests.m; sourceTree = "<group>"; };
+		893A8C4A1D82A01B0091BCCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893A8C571D82A0F30091BCCC /* BSNumbersCollectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSNumbersCollectionCell.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C581D82A0F30091BCCC /* BSNumbersCollectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSNumbersCollectionCell.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C591D82A0F30091BCCC /* BSNumbersCollectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSNumbersCollectionHeaderView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C5A1D82A0F30091BCCC /* BSNumbersCollectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSNumbersCollectionHeaderView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C5B1D82A0F30091BCCC /* BSNumbersDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSNumbersDataManager.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C5C1D82A0F30091BCCC /* BSNumbersDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSNumbersDataManager.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C5D1D82A0F30091BCCC /* BSNumbersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = BSNumbersView.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C5E1D82A0F30091BCCC /* BSNumbersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = BSNumbersView.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C5F1D82A0F30091BCCC /* NSObject+BSNumbersExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSObject+BSNumbersExtension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C601D82A0F30091BCCC /* NSObject+BSNumbersExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSObject+BSNumbersExtension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C611D82A0F30091BCCC /* NSString+BSNumbersExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = "NSString+BSNumbersExtension.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		893A8C621D82A0F30091BCCC /* NSString+BSNumbersExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = "NSString+BSNumbersExtension.m"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		893A8C691D82A1410091BCCC /* flightsInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = flightsInfo.plist; sourceTree = "<group>"; };
+		893A8C6B1D82A1760091BCCC /* TFNumber.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFNumber.h; sourceTree = "<group>"; };
+		893A8C6D1D82A2AF0091BCCC /* Flight.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flight.h; sourceTree = "<group>"; };
+		893A8C6E1D82A2AF0091BCCC /* Flight.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Flight.m; sourceTree = "<group>"; };
+		893A8C721D82A5C40091BCCC /* MASCompositeConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		893A8C731D82A5C40091BCCC /* MASCompositeConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		893A8C741D82A5C40091BCCC /* MASConstraint+Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		893A8C751D82A5C40091BCCC /* MASConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		893A8C761D82A5C40091BCCC /* MASConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		893A8C771D82A5C40091BCCC /* MASConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		893A8C781D82A5C40091BCCC /* MASConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		893A8C791D82A5C40091BCCC /* MASLayoutConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		893A8C7A1D82A5C40091BCCC /* MASLayoutConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		893A8C7B1D82A5C40091BCCC /* Masonry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		893A8C7C1D82A5C40091BCCC /* MASUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		893A8C7D1D82A5C40091BCCC /* MASViewAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		893A8C7E1D82A5C40091BCCC /* MASViewAttribute.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		893A8C7F1D82A5C40091BCCC /* MASViewConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		893A8C801D82A5C40091BCCC /* MASViewConstraint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		893A8C811D82A5C40091BCCC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		893A8C821D82A5C40091BCCC /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		893A8C831D82A5C40091BCCC /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		893A8C841D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		893A8C851D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		893A8C861D82A5C40091BCCC /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		893A8C871D82A5C40091BCCC /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		893A8C881D82A5C40091BCCC /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		893A8C891D82A5C40091BCCC /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		893A8C8A1D82A5C40091BCCC /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		893A8C1D1D82A01B0091BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C361D82A01B0091BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C411D82A01B0091BCCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		893A8C171D82A01B0091BCCC = {
+			isa = PBXGroup;
+			children = (
+				893A8C221D82A01B0091BCCC /* TFExcel */,
+				893A8C3C1D82A01B0091BCCC /* TFExcelTests */,
+				893A8C471D82A01B0091BCCC /* TFExcelUITests */,
+				893A8C211D82A01B0091BCCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		893A8C211D82A01B0091BCCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C201D82A01B0091BCCC /* TFExcel.app */,
+				893A8C391D82A01B0091BCCC /* TFExcelTests.xctest */,
+				893A8C441D82A01B0091BCCC /* TFExcelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		893A8C221D82A01B0091BCCC /* TFExcel */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C261D82A01B0091BCCC /* AppDelegate.h */,
+				893A8C271D82A01B0091BCCC /* AppDelegate.m */,
+				893A8C2C1D82A01B0091BCCC /* Main.storyboard */,
+				893A8C2F1D82A01B0091BCCC /* Assets.xcassets */,
+				893A8C701D82A5C40091BCCC /* Masonry */,
+				893A8C561D82A0F30091BCCC /* BSNumbersView */,
+				893A8C6C1D82A2AF0091BCCC /* Model */,
+				893A8C291D82A01B0091BCCC /* ViewController.h */,
+				893A8C2A1D82A01B0091BCCC /* ViewController.m */,
+				893A8C691D82A1410091BCCC /* flightsInfo.plist */,
+				893A8C231D82A01B0091BCCC /* Supporting Files */,
+			);
+			path = TFExcel;
+			sourceTree = "<group>";
+		};
+		893A8C231D82A01B0091BCCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C311D82A01B0091BCCC /* LaunchScreen.storyboard */,
+				893A8C341D82A01B0091BCCC /* Info.plist */,
+				893A8C241D82A01B0091BCCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		893A8C3C1D82A01B0091BCCC /* TFExcelTests */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C3D1D82A01B0091BCCC /* TFExcelTests.m */,
+				893A8C3F1D82A01B0091BCCC /* Info.plist */,
+			);
+			path = TFExcelTests;
+			sourceTree = "<group>";
+		};
+		893A8C471D82A01B0091BCCC /* TFExcelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C481D82A01B0091BCCC /* TFExcelUITests.m */,
+				893A8C4A1D82A01B0091BCCC /* Info.plist */,
+			);
+			path = TFExcelUITests;
+			sourceTree = "<group>";
+		};
+		893A8C561D82A0F30091BCCC /* BSNumbersView */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C6B1D82A1760091BCCC /* TFNumber.h */,
+				893A8C571D82A0F30091BCCC /* BSNumbersCollectionCell.h */,
+				893A8C581D82A0F30091BCCC /* BSNumbersCollectionCell.m */,
+				893A8C591D82A0F30091BCCC /* BSNumbersCollectionHeaderView.h */,
+				893A8C5A1D82A0F30091BCCC /* BSNumbersCollectionHeaderView.m */,
+				893A8C5B1D82A0F30091BCCC /* BSNumbersDataManager.h */,
+				893A8C5C1D82A0F30091BCCC /* BSNumbersDataManager.m */,
+				893A8C5D1D82A0F30091BCCC /* BSNumbersView.h */,
+				893A8C5E1D82A0F30091BCCC /* BSNumbersView.m */,
+				893A8C5F1D82A0F30091BCCC /* NSObject+BSNumbersExtension.h */,
+				893A8C601D82A0F30091BCCC /* NSObject+BSNumbersExtension.m */,
+				893A8C611D82A0F30091BCCC /* NSString+BSNumbersExtension.h */,
+				893A8C621D82A0F30091BCCC /* NSString+BSNumbersExtension.m */,
+			);
+			path = BSNumbersView;
+			sourceTree = "<group>";
+		};
+		893A8C6C1D82A2AF0091BCCC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C6D1D82A2AF0091BCCC /* Flight.h */,
+				893A8C6E1D82A2AF0091BCCC /* Flight.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		893A8C701D82A5C40091BCCC /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				893A8C721D82A5C40091BCCC /* MASCompositeConstraint.h */,
+				893A8C731D82A5C40091BCCC /* MASCompositeConstraint.m */,
+				893A8C741D82A5C40091BCCC /* MASConstraint+Private.h */,
+				893A8C751D82A5C40091BCCC /* MASConstraint.h */,
+				893A8C761D82A5C40091BCCC /* MASConstraint.m */,
+				893A8C771D82A5C40091BCCC /* MASConstraintMaker.h */,
+				893A8C781D82A5C40091BCCC /* MASConstraintMaker.m */,
+				893A8C791D82A5C40091BCCC /* MASLayoutConstraint.h */,
+				893A8C7A1D82A5C40091BCCC /* MASLayoutConstraint.m */,
+				893A8C7B1D82A5C40091BCCC /* Masonry.h */,
+				893A8C7C1D82A5C40091BCCC /* MASUtilities.h */,
+				893A8C7D1D82A5C40091BCCC /* MASViewAttribute.h */,
+				893A8C7E1D82A5C40091BCCC /* MASViewAttribute.m */,
+				893A8C7F1D82A5C40091BCCC /* MASViewConstraint.h */,
+				893A8C801D82A5C40091BCCC /* MASViewConstraint.m */,
+				893A8C811D82A5C40091BCCC /* NSArray+MASAdditions.h */,
+				893A8C821D82A5C40091BCCC /* NSArray+MASAdditions.m */,
+				893A8C831D82A5C40091BCCC /* NSArray+MASShorthandAdditions.h */,
+				893A8C841D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.h */,
+				893A8C851D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.m */,
+				893A8C861D82A5C40091BCCC /* View+MASAdditions.h */,
+				893A8C871D82A5C40091BCCC /* View+MASAdditions.m */,
+				893A8C881D82A5C40091BCCC /* View+MASShorthandAdditions.h */,
+				893A8C891D82A5C40091BCCC /* ViewController+MASAdditions.h */,
+				893A8C8A1D82A5C40091BCCC /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		893A8C1F1D82A01B0091BCCC /* TFExcel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893A8C4D1D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcel" */;
+			buildPhases = (
+				893A8C1C1D82A01B0091BCCC /* Sources */,
+				893A8C1D1D82A01B0091BCCC /* Frameworks */,
+				893A8C1E1D82A01B0091BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TFExcel;
+			productName = TFExcel;
+			productReference = 893A8C201D82A01B0091BCCC /* TFExcel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		893A8C381D82A01B0091BCCC /* TFExcelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893A8C501D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcelTests" */;
+			buildPhases = (
+				893A8C351D82A01B0091BCCC /* Sources */,
+				893A8C361D82A01B0091BCCC /* Frameworks */,
+				893A8C371D82A01B0091BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893A8C3B1D82A01B0091BCCC /* PBXTargetDependency */,
+			);
+			name = TFExcelTests;
+			productName = TFExcelTests;
+			productReference = 893A8C391D82A01B0091BCCC /* TFExcelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		893A8C431D82A01B0091BCCC /* TFExcelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 893A8C531D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcelUITests" */;
+			buildPhases = (
+				893A8C401D82A01B0091BCCC /* Sources */,
+				893A8C411D82A01B0091BCCC /* Frameworks */,
+				893A8C421D82A01B0091BCCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				893A8C461D82A01B0091BCCC /* PBXTargetDependency */,
+			);
+			name = TFExcelUITests;
+			productName = TFExcelUITests;
+			productReference = 893A8C441D82A01B0091BCCC /* TFExcelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		893A8C181D82A01B0091BCCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ftf;
+				TargetAttributes = {
+					893A8C1F1D82A01B0091BCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					893A8C381D82A01B0091BCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 893A8C1F1D82A01B0091BCCC;
+					};
+					893A8C431D82A01B0091BCCC = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 893A8C1F1D82A01B0091BCCC;
+					};
+				};
+			};
+			buildConfigurationList = 893A8C1B1D82A01B0091BCCC /* Build configuration list for PBXProject "TFExcel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 893A8C171D82A01B0091BCCC;
+			productRefGroup = 893A8C211D82A01B0091BCCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				893A8C1F1D82A01B0091BCCC /* TFExcel */,
+				893A8C381D82A01B0091BCCC /* TFExcelTests */,
+				893A8C431D82A01B0091BCCC /* TFExcelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		893A8C1E1D82A01B0091BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A8C6A1D82A1410091BCCC /* flightsInfo.plist in Resources */,
+				893A8C331D82A01B0091BCCC /* LaunchScreen.storyboard in Resources */,
+				893A8C301D82A01B0091BCCC /* Assets.xcassets in Resources */,
+				893A8C2E1D82A01B0091BCCC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C371D82A01B0091BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C421D82A01B0091BCCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		893A8C1C1D82A01B0091BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A8C941D82A5C40091BCCC /* View+MASAdditions.m in Sources */,
+				893A8C681D82A0F30091BCCC /* NSString+BSNumbersExtension.m in Sources */,
+				893A8C2B1D82A01B0091BCCC /* ViewController.m in Sources */,
+				893A8C671D82A0F30091BCCC /* NSObject+BSNumbersExtension.m in Sources */,
+				893A8C6F1D82A2AF0091BCCC /* Flight.m in Sources */,
+				893A8C631D82A0F30091BCCC /* BSNumbersCollectionCell.m in Sources */,
+				893A8C951D82A5C40091BCCC /* ViewController+MASAdditions.m in Sources */,
+				893A8C901D82A5C40091BCCC /* MASViewAttribute.m in Sources */,
+				893A8C8C1D82A5C40091BCCC /* MASCompositeConstraint.m in Sources */,
+				893A8C661D82A0F30091BCCC /* BSNumbersView.m in Sources */,
+				893A8C281D82A01B0091BCCC /* AppDelegate.m in Sources */,
+				893A8C8E1D82A5C40091BCCC /* MASConstraintMaker.m in Sources */,
+				893A8C8D1D82A5C40091BCCC /* MASConstraint.m in Sources */,
+				893A8C931D82A5C40091BCCC /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				893A8C8F1D82A5C40091BCCC /* MASLayoutConstraint.m in Sources */,
+				893A8C921D82A5C40091BCCC /* NSArray+MASAdditions.m in Sources */,
+				893A8C651D82A0F30091BCCC /* BSNumbersDataManager.m in Sources */,
+				893A8C251D82A01B0091BCCC /* main.m in Sources */,
+				893A8C641D82A0F30091BCCC /* BSNumbersCollectionHeaderView.m in Sources */,
+				893A8C911D82A5C40091BCCC /* MASViewConstraint.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C351D82A01B0091BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A8C3E1D82A01B0091BCCC /* TFExcelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		893A8C401D82A01B0091BCCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				893A8C491D82A01B0091BCCC /* TFExcelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		893A8C3B1D82A01B0091BCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893A8C1F1D82A01B0091BCCC /* TFExcel */;
+			targetProxy = 893A8C3A1D82A01B0091BCCC /* PBXContainerItemProxy */;
+		};
+		893A8C461D82A01B0091BCCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 893A8C1F1D82A01B0091BCCC /* TFExcel */;
+			targetProxy = 893A8C451D82A01B0091BCCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		893A8C2C1D82A01B0091BCCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893A8C2D1D82A01B0091BCCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		893A8C311D82A01B0091BCCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				893A8C321D82A01B0091BCCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		893A8C4B1D82A01B0091BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		893A8C4C1D82A01B0091BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		893A8C4E1D82A01B0091BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFExcel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		893A8C4F1D82A01B0091BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TFExcel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		893A8C511D82A01B0091BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFExcel.app/TFExcel";
+			};
+			name = Debug;
+		};
+		893A8C521D82A01B0091BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TFExcelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TFExcel.app/TFExcel";
+			};
+			name = Release;
+		};
+		893A8C541D82A01B0091BCCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFExcel;
+			};
+			name = Debug;
+		};
+		893A8C551D82A01B0091BCCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TFExcelUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftf.marquee.TFExcelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TFExcel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		893A8C1B1D82A01B0091BCCC /* Build configuration list for PBXProject "TFExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A8C4B1D82A01B0091BCCC /* Debug */,
+				893A8C4C1D82A01B0091BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893A8C4D1D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A8C4E1D82A01B0091BCCC /* Debug */,
+				893A8C4F1D82A01B0091BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893A8C501D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A8C511D82A01B0091BCCC /* Debug */,
+				893A8C521D82A01B0091BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		893A8C531D82A01B0091BCCC /* Build configuration list for PBXNativeTarget "TFExcelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				893A8C541D82A01B0091BCCC /* Debug */,
+				893A8C551D82A01B0091BCCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 893A8C181D82A01B0091BCCC /* Project object */;
+}
